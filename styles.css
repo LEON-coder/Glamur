@@ -1,0 +1,179 @@
+    .body {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header {
+    background: url('images/bg-main.png');
+    display: flex;
+    width: 100%;
+    height: 618px;
+}
+
+.style-help-block {
+    display: flex;
+    width: 100%;
+    height: 250px;
+    background: #ffffff;
+    flex-direction: column;
+    align-items: center;
+}
+
+.style-help-block__header {
+    font-family: 'Myriad Pro';
+    font-size: 30px;
+    margin-top: 66px;
+}
+
+.style-help-block__consultation {
+    width: 888px;
+    font-size: 26px;
+}
+
+.customer-block {
+    background-image: url('images/form-reservation-bigcolor (1920 x 768).jpg');
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.block-books {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+
+.block-books__picture {}
+
+.services-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-block__header {
+    margin-top: 112px;
+    font-size: 30px;
+}
+
+.services-block__block-packages--service {
+    display: flex;
+    width: 1064px;
+}
+
+.services-block__package {
+    width: 308px;
+    height: 477px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e8e8e8;
+    padding-left: 20px;
+    padding-top: 0px;
+    margin-right: 68px;
+}
+
+.services-block__package:hover {
+    box-shadow: 8px 10px 45px 8px;
+}
+
+.services-block__header-text {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+.try-text {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.services-block__time {
+    display: flex;
+    align-items: flex-start;
+}
+
+.services-block__within-24-ours {
+    font-weight: 700;
+}
+
+.services-block__5-questions {
+    font-weight: 700;
+}
+
+.services-block__prices-block {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 700;
+}
+
+.number-800 {}
+
+.number-499 {}
+
+.services-block__order {
+    display: flex;
+    width: 240px;
+    height: 50px;
+    color: #f4e4e7;
+    background: #ff0c3a;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.block-process {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block-process__header {
+    margin-top: 112px;
+    font-size: 36px;
+}
+
+.block-process__discribe-block {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 646px;
+}
+
+.block-process__discribe-block--text {
+    font-family: 'Myriad Pro';
+    color: #7d7d7d;
+}
+.block-process__discribe-block--text:last-child {
+    margin-left: 62px;
+}
+
+.block-process__stylish {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.block-process__stylish-img {
+    width: 20%;
+}
+
+.block-process__consultant-client {
+    font-size: 26px;
+    width: 380px;
+    margin-left: 30px;
+}
+
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('fonts/MyriadPro-Regular.ttf'), url('fonts/MyriadPro-Regular.woff2')
