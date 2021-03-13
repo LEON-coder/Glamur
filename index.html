@@ -12,14 +12,18 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="bootstrap/css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 </head>
 
 <body>
 
-    <header>
+    <header id="header">
 
-        <div class="header__navigation">
+        <div class="header__navigation container col-xl-1">
             <ul class="header__list">
                 <li class="header__item">
                     <a class="header__item-link" href="">БЛОГ </a>
@@ -260,7 +264,14 @@
 
 
         <div class="block-books">
-            <img class="block-books__picture" src="images/2razmera_books_preview_1200_c.png">
+            <picture class="block-books__pictures">
+                <img class="block-books__picture" src="images/2razmera_books_preview_1200_c.png">
+                <img class="block-books__picture-768px" src="images/2razmera_books_preview_1200_c (768 x 563).jpg">
+
+                <img class="block-books__picture--320px" src="images/2razmera_books_preview (320px).png">
+
+            </picture>
+
         </div>
 
         <div class="services-block">
@@ -279,7 +290,7 @@
                     <p class="services-block__5-questions"> 5 ваших луков или 5 вопросов</p>
 
                     <div class="services-block__prices-block">
-                        <number class="">800 р</number>
+                        <img class="" src="images/890.png">
                         <number class="number-499">499 р</number>
                     </div>
                     <a class="services-block__order" href="#"> Заказать</a>
@@ -297,8 +308,8 @@
                     <p class="services-block__5-questions"> 5 ваших луков или 5 вопросов</p>
 
                     <div class="services-block__prices-block">
-                        <number class="number-800">800 р</number>
-                        <number class="number-499">499 р</number>
+                        <img class="" src="images/2900.png">
+                        <number class="number-499">2 900 р</number>
                     </div>
 
                     <a class="services-block__order" href="#"> Заказать</a>
@@ -317,8 +328,8 @@
                     <p class="services-block__5-questions"> 5 ваших луков или 5 вопросов</p>
 
                     <div class="services-block__prices-block">
-                        <number class="">800 р</number>
-                        <number class="number-499">499 р</number>
+                        <img class="" src="images/9900.png">
+                        <number class="number-499">9 990 р</number>
                     </div>
                     <a class="services-block__order" href="#"> Заказать</a>
                 </div>
@@ -365,10 +376,13 @@
 
         <div class="footer">
 
-
             <div class="footer__wrapper">
+                <div class="footer__link_top-block">
+                    <a class="footer__link_top" href="#header">наверх</a>
+                    <img class="footer__arrow" src="images/footer/arrow.png">
 
-                <a class="footer__link_top">наверх</a>
+                </div>
+
 
                 <ul class="footer__list">
                     <li class="footer__item">
@@ -398,9 +412,8 @@
         <![endif]-->
 
         <script src="jquery-3.3.1.min.js" async defer></script>
-        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-        <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+        <script src="scroll.js" defer></script>
+
 </body>
 
 </html>
